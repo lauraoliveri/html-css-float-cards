@@ -1,0 +1,68 @@
+/* Reset */
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+/* Float */
+.containerall {
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 50px;
+}
+
+.containerbox >* {
+    float: left;
+    margin: 1px;
+    width: calc(100%/ 6);
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* General edits */
+h1 {
+    color: rgb(255, 87, 255);
+    background-image: url(../html-css-float-cards/img/cute-cartoon-cat-vector-icons-600nw-524942290.webp);
+    text-shadow: 2px 2px 2px rgb(143, 46, 143) ;
+}
+
+img {
+    max-width: 75px;
+    max-height: 80px;
+    float: left;
+}
+
+.container {
+    margin: 10px;
+}
+
+.center {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: rgb(247, 184, 247);
+}
+/* Person description box edits */
+.box1 {
+    background-color: rgb(255, 87, 255);
+    width: 350px;
+    height: 80px;
+    font-size: x-small;
+    margin: 17px;
+    box-shadow: 2px 2px 2px rgb(143, 46, 143);
+}
+
+
+.textmargin {
+    margin-left: 90px;
+    font-size: medium;
+}
